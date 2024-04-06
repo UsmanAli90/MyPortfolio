@@ -1,12 +1,11 @@
-MyPortfolio
+#MyPortfolio
 
-Description
 This is my personal portfolio website built using React.js. It showcases my skills, projects, and experiences to potential clients and employers.
 
-Demo
+#Demo
 You can visit the live website: https://usmanali.vercel.app/
 
-Technologies Used
+#Technologies Used
 React.js
 HTML5
 CSS3
