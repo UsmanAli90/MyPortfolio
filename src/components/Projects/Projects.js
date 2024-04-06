@@ -6,6 +6,8 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
+import ecommerce from "../../Assets/Projects/ecommerce.jpg";
+import weather from "../../Assets/Projects/weather.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={ecommerce}
               isBlog={false}
               title="Ecommerce"
               description="Explore our cutting-edge Ecommerce website built with Django! Our open-source project offers a seamless online shopping experience, combining elegant design and robust functionality. Discover a wide range of products while enjoying user-friendly navigation and secure transactions."
@@ -44,7 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={weather}
               isBlog={false}
               title="Weather-App"
               description="Our weather website provides real-time weather information for any location worldwide. Users can enter their desired location, and our website instantly fetches the current weather data, including temperature, weather conditions, and humidity."
