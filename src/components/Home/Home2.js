@@ -8,6 +8,8 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaMediumM } from "react-icons/fa";
+import { FaStackOverflow } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -74,7 +76,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/@usmanali90"
+                  href="https://twitter.com/@usmanali_90"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -90,6 +92,26 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://medium.com/@usmanali23"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaMediumM />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://stackoverflow.com/users/24298448/usmanali"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FaStackOverflow />
                 </a>
               </li>
 

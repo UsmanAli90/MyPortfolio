@@ -40,7 +40,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
 
-          <strong className="main-name"> UA</strong>
+          <strong className="main-name"> Usman Ali</strong>
 
           {/* <img src={logo} className="img-fluid logo" alt="brand" /> */}
         </Navbar.Brand>
@@ -92,6 +92,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contactme"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Contact Me
               </Nav.Link>
             </Nav.Item>
 

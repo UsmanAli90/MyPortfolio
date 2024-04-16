@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple"> Usman Ali </span>
             from <span className="purple"> Faisalabad, Pakistan.</span>
             <br />
-            I am currently a Student of BSCS at FAST NUCES.
+            I am currently pursuing my BSCS at FAST NUCES in Pakistan. My journey in web development has been dynamic, with a focus on the <span className="purple"> MERN Stack</span>, where I've led various projects utilizing <span className="purple">React.js</span> for frontend and <span className="purple"> Node.js</span> for backend functionalities. Additionally, I've delved into Python, employing <span className="purple">Django</span> for backend development. Beyond coding, my fascination with <span className="purple">Generative AI and LLMs</span> drives me to explore the forefront of technology. Being a part of the <span className="purple"> Aspire Leaders program by Harvard School of Business</span> further fuels my ambition for personal and professional growth.
             {/* <br />
             I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
             Mesra. */}
@@ -21,13 +21,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Content Creation
             </li>
             <li className="about-activity">
               <ImPointRight /> Writing Tech Blogs
             </li>
             <li className="about-activity">
-              <ImPointRight /> Content creation
+              <ImPointRight /> Learning new trends
             </li>
           </ul>
 
