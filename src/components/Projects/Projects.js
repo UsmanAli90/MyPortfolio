@@ -8,6 +8,8 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import weather from "../../Assets/Projects/weather.jpg";
+import ecommerce1 from "../../Assets/Projects/EcommerceROR.jpg";
+
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -29,6 +31,7 @@ function Projects() {
               isBlog={false}
               title="Ecommerce"
               description="Explore our cutting-edge Ecommerce website built with Django! Our open-source project offers a seamless online shopping experience, combining elegant design and robust functionality. Discover a wide range of products while enjoying user-friendly navigation and secure transactions."
+              language= "-> Python(Django), HTML/CSS"
               ghLink="https://github.com/UsmanAli90/Ecommerce-Django.git"
             // demoLink="https://tieandshirtpoint.netlify.app/"
             />
@@ -43,6 +46,16 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col> */}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ecommerce1}
+              isBlog={false}
+              title="Ecommerce (ROR)"
+              description="Discover our innovative eCommerce platform, crafted with Ruby on Rails! This open-source project offers a smooth, enjoyable shopping experience with a refined design and strong functionality. Browse a diverse product range with ease, backed by user-friendly navigation and secure payment processing."
+              language= "-> ROR(Ruby on Rails), HTML/CSS"
+              ghLink="https://github.com/UsmanAli90/Ecommerce-Project"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -50,6 +63,7 @@ function Projects() {
               isBlog={false}
               title="Weather-App"
               description="Our weather website provides real-time weather information for any location worldwide. Users can enter their desired location, and our website instantly fetches the current weather data, including temperature, weather conditions, and humidity."
+              language= "-> JavaScript, HTML/CSS"
               ghLink="https://github.com/UsmanAli90/Weather-App.git"
               demoLink="https://weatherappbyusman.netlify.app/"
             />
