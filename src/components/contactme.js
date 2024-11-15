@@ -12,6 +12,8 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 
+import { FaEnvelope } from "react-icons/fa";
+
 function Home2() {
     return (
         <Container fluid className="home-about-section" id="about">
@@ -64,11 +66,6 @@ function Home2() {
                         <p>
                             Feel free to <span className="purple">connect </span>with me
                         </p>
-                        <p>
-                            <span className="purple">Phone: </span> +92-3006634005
-                            <br></br><br></br>
-                            <span className="purple">Email: </span>  usmanmanagement23@gmail.com
-                        </p>
                         <ul className="home-about-social-links">
                             <li className="social-icons">
                                 <a
@@ -118,6 +115,16 @@ function Home2() {
                                     className="icon-colour  home-social-icons"
                                 >
                                     <FaStackOverflow />
+                                </a>
+                            </li>
+                            <li className="social-icons">
+                                <a
+                                    href="mailto:muhammad.usmana900@gmail.com"
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="icon-colour home-social-icons"
+                                >
+                                    <FaEnvelope />
                                 </a>
                             </li>
 

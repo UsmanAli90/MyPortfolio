@@ -5,13 +5,16 @@ import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaMediumM } from "react-icons/fa";
 import { FaStackOverflow } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
+import pdf from "../../Assets/../Assets/UsmanAli_Resume.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
+import { Document, Page, pdfjs } from "react-pdf";
+import Button from "react-bootstrap/Button";
 
 function Home2() {
   return (
@@ -41,6 +44,19 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+<br></br><br></br><br></br>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download Resume
+          </Button>
+        </Row>
+        <br></br><br></br>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
