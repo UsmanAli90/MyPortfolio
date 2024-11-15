@@ -28,21 +28,23 @@ function Home2() {
               <br></br><br></br>
               <p>&#8227; Built skills in <span className="purple">Ruby on Rails</span>  for efficient, maintainable application development.<br></br>
 
-              &#8227; Created an <span className="purple">Ecommerce</span>  site with product browsing, add-to-cart, and secure payment features.<br></br>
+                &#8227; Created an <span className="purple">Ecommerce</span>  site with product browsing, add-to-cart, and secure payment features.<br></br>
 
-              &#8227; Designed an admin interface for product management, user monitoring, and order processing.</p>
-              <a href="https://github.com/UsmanAli90/Ecommerce-Project" target="_blank"> <button class="btn btn-success">Project</button></a>
-             
+                &#8227; Designed an admin interface for product management, user monitoring, and order processing.</p>
+              <a href="https://github.com/UsmanAli90/Ecommerce-Project" target="_blank"> <button class="btn btn-success">Project</button></a><br></br>
+
               <hr></hr>
-              Hello! I'm <i><b className="purple">Usman Ali</b></i>, a passionate <i><b className="purple">Software Developer</b></i> from Pakistan.
-              <br />
-              <br />I specialize in building dynamic and scalable applications using <i><b className="purple">MERN Stack</b></i>, <i><b className="purple">Ruby on Rails (RoR)</b></i>, <i><b className="purple">Django</b></i>, and <i><b className="purple">Python</b></i>.
-              <br />
-              <br />
-              My key areas of interest include <i><b className="purple">Web Development</b></i> and leveraging <i><b className="purple">AI and Large Language Models (LLMs)</b></i> to create innovative solutions.
-              <br />
-              <br />
-              I'm always eager to collaborate on challenging projects that drive meaningful impact, and I’m continuously expanding my expertise in cutting-edge technologies.
+
+              <h2 className="purple">Codsoft</h2>
+              Frontend Developer Intern at Codsoft (Oct 2023-Nov 2023) (Remote)
+              <br></br><br></br>
+              <p>&#8227; Built skills in <span className="purple">ReactJS</span>  for efficient, maintainable development.<br></br>
+
+                &#8227; Created a <span className="purple">Portflio</span>  including different sections.<br></br>
+
+              </p>
+              <a href="https://worlddispatch23.netlify.app/" target="_blank"> <button class="btn btn-success">Project</button></a><br></br>
+              <hr></hr>
             </p>
           </Col>
 
