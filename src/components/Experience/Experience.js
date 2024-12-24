@@ -39,6 +39,19 @@ function Home2() {
 
               <hr></hr>
 
+
+              <h2 className="purple">Google Developer Group-FAST CFD</h2>
+              Technical Lead at Google Developer Group (October 2023 - Present)
+              <br></br><br></br>
+              <p>&#8227; Led the development and technical side for the group, focusing on <span className="purple">AI/ML</span> and <span className="purple">Web Technologies</span>.<br></br>
+
+                &#8227; Organized coding sessions, hackathons, and tech talks, fostering a collaborative environment for learning and innovation.<br></br>
+
+                &#8227; Coordinated team efforts in developing projects that align with Google’s vision, contributing to both personal and community growth.</p>
+              <a href="https://www.linkedin.com/company/gdgoc-fast-nuces-cfd/" target="_blank"> <button class="btn btn-success">LinkedIn</button></a><br></br>
+
+              <hr></hr>
+
               <h2 className="purple">Codsoft</h2>
               Frontend Developer Intern at Codsoft (Oct 2023-Nov 2023) (Remote)
               <br></br><br></br>
