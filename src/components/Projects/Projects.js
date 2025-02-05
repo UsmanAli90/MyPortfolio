@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import ecommerce from "../../Assets/Projects/ecommerce.jpg";
 import ecommerce1 from "../../Assets/Projects/EcommerceROR.jpg";
 import Capital from '../../Assets/Projects/CapitalValley.png'
+import Chat from '../../Assets/Projects/Chat.jpg'
 import pdf from "../../Assets/../Assets/UsmanAli_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Button from "react-bootstrap/Button";
@@ -14,6 +15,18 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
+      <Row style={{ justifyContent: "center", position: "relative" }}>
+            <Button
+              variant="primary"
+              href={pdf}
+              target="_blank"
+              style={{ maxWidth: "250px" }}
+            >
+              <AiOutlineDownload />
+              &nbsp;Download Resume
+            </Button>
+          </Row>
+          <br></br><br></br><br></br>
         <h1 className="project-heading">
           My Recent <strong className="purple">Works </strong>
         </h1>
@@ -32,6 +45,20 @@ function Projects() {
               style={{ width: '100%' }}
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Chat}
+              isBlog={false}
+              title="Quick-Chat"
+              description="CQuickChat is a real-time chat app built with the MERN stack (MongoDB, Express, React, Node.js) and Socket.IO. It features instant messaging, secure authentication, a responsive UI, and scalable backend support. Perfect for seamless communication with modern tech!"
+              language="-> MERN Stack, JavaScript, Node.js, MongoDB, Socket.IO"
+              ghLink="https://github.com/UsmanAli90/Quick-Chat.git"
+              demoLink="https://quick-chat-mau1.onrender.com/login"
+              style={{ width: '100%' }}
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ecommerce}
@@ -54,19 +81,7 @@ function Projects() {
             />
           </Col>
 
-          <br></br><br></br><br></br>
-          <Row style={{ justifyContent: "center", position: "relative" }}>
-            <Button
-              variant="primary"
-              href={pdf}
-              target="_blank"
-              style={{ maxWidth: "250px" }}
-            >
-              <AiOutlineDownload />
-              &nbsp;Download Resume
-            </Button>
-          </Row>
-          <br></br><br></br>
+
 
         </Row>
       </Container>
